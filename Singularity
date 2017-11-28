@@ -6,7 +6,7 @@ yum -y update && yum -y upgrade
 
 # you need to create the top level directories since there is no overlay on CentOS-6
 # specific to my setup
-mkdir -p /local-storage /mnt/beegfs /baycells/home /baycells/scratch /c6/shared /c6/eb /local/gensoft2 /c6/shared/rpm /Bis/Scratch2 /mnt/beegfs
+mkdir -p /local-storage /mnt/beegfs /baycells/home /baycells/scratch /c6/shared /c6/eb /local/gensoft2 /c6/shared/rpm /Bis/Scratch2 /mnt/beegfs /pasteur
 
 # https://www.google.com/chrome/
 # 
