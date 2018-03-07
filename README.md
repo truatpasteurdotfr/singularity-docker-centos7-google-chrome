@@ -1,7 +1,7 @@
 # singularity-docker-centos7-google-chrome
 google-chrome singularity container on CentOS-7
 
-```
+
 Running without installation:
 ```
 singularity run shub://truatpasteurdotfr/singularity-docker-centos7-google-chrome
