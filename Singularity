@@ -8,6 +8,9 @@ yum -y update && yum -y upgrade
 # specific to my setup
 mkdir -p /local-storage /mnt/beegfs /baycells/home /baycells/scratch /c6/shared /c6/eb /local/gensoft2 /c6/shared/rpm /Bis/Scratch2 /mnt/beegfs /pasteur
 
+# since version 66 needs yum -y install libappindicator from epel
+yum -y install epel-release && yum -y install libappindicator
+
 # https://www.google.com/chrome/
 # 
 # Note: Installing Google Chrome will add the Google repository so your system
@@ -37,6 +40,7 @@ yum -y install mesa-dri-drivers
 # Gtk-Message: Failed to load module "canberra-gtk-module"
 
 yum -y install libcanberra-gtk2 libcanberra adwaita-gtk2-theme PackageKit-gtk3-module
+
 
 %runscript
 # you need to use the "unsupported" --no-sandbox flag, since singularity is not running as a privileged process
