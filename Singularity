@@ -40,7 +40,8 @@ yum -y install mesa-dri-drivers
 # Gtk-Message: Failed to load module "canberra-gtk-module"
 
 yum -y install libcanberra-gtk2 libcanberra adwaita-gtk2-theme PackageKit-gtk3-module
-
+# missing fonts
+yum -y install liberation-sans-fonts
 
 %runscript
 # you need to use the "unsupported" --no-sandbox flag, since singularity is not running as a privileged process
