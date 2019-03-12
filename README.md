@@ -29,3 +29,4 @@ sudo singularity build --sandbox ~/singularity.d/sandbox/google-chrome ./google-
 sudo singularity exec --writable ~/singularity.d/sandbox/google-chrome 'yum -y update'
 ```
 
+Touched to force rebuild 2019/03/12
